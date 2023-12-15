@@ -1,0 +1,74 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="pt-br">
+  
+<link rel="shortcut icon" href="images/demo/favicon.png" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+  <link rel="stylesheet" href="layout/styles/layout.css"/>
+  <link rel="stylesheet" href="layout/styles/forml.css">
+  <link rel="javascript" href="js/comand.js" />
+
+  <title>ShopMaps | Entrar</title>
+
+</head>
+
+<body>
+  
+  <div class="wrapper col1">
+    <div id="header">
+      <div class="fl_left">
+        <img class="logoo">
+        <h1><a href="index.html"><img src="images/demo/logo.png" alt="favicon" width="300" height="150" align="left" > 
+      </div>
+      <div id="topnav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li class="active"><a href="Entrar.html">Entrar</a></li>
+
+        </ul>
+      </div>
+      <br class="clear" />
+    </div>
+  </div>
+
+  <div id="main-container">
+   <p><h1>Conecte sua Conta</h1></p>
+    <form id="register-form">
+
+        <!--E-mail-->
+
+        <div class="half-box spacing">
+          <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail" data-min-length="2" data-email-validate required>
+        </div><br>
+
+        <!--Senha-->
+
+        <div class="half-box spacing">
+          <label for="lastname">Senha</label>
+          <input type="password" name="password" id="password" placeholder="Digite sua senha" data-password-validate data-required required>
+        </div><br>
+
+        <div class="full-box">
+          
+         <!--<input id="btn-submit" href="abrir.html" type="submit" value="Entrar">-->
+         <a href="abrir.html">
+          <input type="button" value="Entrar">
+      </a>
+  
+         
+        </div>
+
+    </form>
+  </div>
+  <p class="error-validation template"></p>
+  <script src="js/comand.js" ></script>
+</body>
+
+</html>

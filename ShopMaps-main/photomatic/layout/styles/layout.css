@@ -1,0 +1,247 @@
+@charset "utf-8";
+
+@import url("navi.css");
+@import url("forml.css");
+@import url("tables.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #323232;
+    border: none;
+  }
+
+#titulo {
+    font-family: sans-serif;
+    color: #999999;
+    margin-left: 7%;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #999999;
+    margin-left: 10%;
+} 
+
+input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+
+html{
+    overflow-y:scroll;
+}
+
+ .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    }
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#000;
+    font-size:12px;
+}
+
+.clear{
+    clear:both;
+}
+
+br.clear{
+    clear:both;
+    margin-top:-15px;
+}
+
+a{
+    outline:none;
+    text-decoration:none;
+    color:#02CCFC;
+    background-color:#000000;}
+
+.full-box{
+    flex: 1 1 100%;
+    position: relative;
+}
+
+.half-box{
+    flex: 1 1 45%;
+    position: relative;
+}
+
+.spacing{
+    margin-right: 2.5%;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+
+  input:focus {
+    border-color: #02CCFC;
+  }
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #999999;
+    border-radius: 5px;
+}
+
+.input[type="submit"]{
+    background-color: #02CCFC;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+
+/*Termo de uso*/
+
+#agreement{
+    margin-right: 5px;
+}
+
+#agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+
+/* validação*/
+.error-validation{
+    color: #FF1A1A;
+    position: absolute;
+    top: 57px;
+    font-size: .8rem;
+}
+
+.template{
+    display: none;
+}
+
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+    margin:0 0 15px 0;
+    padding:0;
+    font-size:20px;
+    font-weight:normal;
+    line-height:normal;
+    color:#666666;
+    background-color:#000000;
+    text-align: center;
+}
+    
+.col1{
+    border-top:5px solid #666;
+}
+
+.col1 a{
+    color:#CCCCCC;
+    background-color:#000000;
+}
+.col2{
+    padding:20px 0;
+}
+.col5, .col5 a{
+    color:#333;
+    background-color:#000;
+}
+
+/* ----------------------------------------------Generalise------------------------------------- */
+
+#header, #footer{
+    display:block;
+    position:relative;
+    width:960px;
+    margin:0 auto;
+}
+
+/* ----------------------------------------------Header------------------------------------- */
+
+#header{
+    padding:30px 0;
+    z-index:1000;
+    border-bottom:1px dotted rgb(0, 0, 0);
+}
+
+#header .fl_left{
+    display:block;
+    float:left;
+    overflow:hidden;
+}
+
+#header h1, #header p, #header ul{
+    margin:0;
+    padding:0; 
+    list-style:none; 
+    line-height:normal;
+}
+
+#header h1 a{
+    font-size:36px;
+}
+
+#header .fl_left p{
+    margin-top:5px;
+}
+
+
+/* ----------------------------------------------Footer------------------------------------- */
+
+#footer{
+    padding:30px 0;
+}
+#footer p{
+    margin:0; 
+    padding:0;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #999999;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+
